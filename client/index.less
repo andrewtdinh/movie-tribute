@@ -1,19 +1,38 @@
-body{
-  color: hsla(52, 100%, 20%, 1.0);
-  background-color: #FFDC00;
+
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+html, body, #container{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
-#apollo{
-  border: 5px solid hsla(52, 100%, 20%, 1.0);
-  width: 150px;
-  height: 225px;
+body{
+  background-image: url('/assets/movie.jpeg');
+  //background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#container{
+  background-color: rgba(63, 184, 221, 0.46);
+  padding: 25px;
 }
 
 #title{
-  position: relative;
-  top: -170px;
-  left: 200px;
-  font-family: monospace;
-  letter-spacing: 10px;
-  font-size: 40px;
+  font-family: 'Lato', sans-serif;
+  font-size: 55px;
+}
+
+p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#poster img {
+  max-width: 95%;
+  border: 10px solid rgba(16, 126, 169, 0.92)
+  border-radius: 5px;
 }
